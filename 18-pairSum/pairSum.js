@@ -7,7 +7,7 @@ function pairSum(nums, target) {
     }
     numSet.add(num);
   }
-  return false; // No pair found
+  return false;
 }
 
 // Do not edit this line;
