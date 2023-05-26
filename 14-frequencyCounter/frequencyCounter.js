@@ -4,7 +4,8 @@ function frequencyCounter(word) {
     var char = word[i];
     if (frequencies[char]) {
       frequencies[char]++;
-    } else {
+    } 
+    else {
       frequencies[char] = 1;
     }
   }  
